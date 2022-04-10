@@ -3,7 +3,8 @@
 
 schema:
 
-![schema](https://user-images.githubusercontent.com/93195038/162620615-aa6fc212-0960-4159-b226-80663f40d7eb.jpg)
+![schema](https://user-images.githubusercontent.com/93195038/162620925-71a49998-1087-4970-b812-c649b7368580.jpg)
+
 
 ## Product class:
 
