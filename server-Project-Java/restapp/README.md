@@ -20,18 +20,19 @@ public ResponseEntity<EntityModel< product>> singleProduct(@PathVariable long id
 3. @GetMapping("/orders/{id}/products")
 public ResponseEntity<CollectionModel<EntityModel<products>>>
 productsByOrder(@PathVariable long id)
-``` 
+
   
   @GetMapping("/posts")
 public Post singlePost(@RequestParam String title) {
 return postRepo.findByTitle(title);
 }
+``` 
   
-  OrderController
-  
+## OrderController
+```Haskell
   @GetMapping("/Orders")
 ResponseEntity<CollectionModel<EntityModel<Profile>>> allOrders()
 
 2. @GetMapping("/Order/{id}")
 ResponseEntity<EntityModel<Profile>> singleOrder(@PathVariable long id)
-  
+ ```  
