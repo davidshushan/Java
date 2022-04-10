@@ -38,4 +38,5 @@ ResponseEntity<EntityModel<Profile>> singleOrder(@PathVariable long id)
  ``` 
  # PART B
 ## server and client
-### server and client comunication using jsonObject, Gson, and jsonFileReader/Writer
+server and client comunication using jsonObject, Gson, and jsonFileReader/Writer
+
