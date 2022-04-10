@@ -10,7 +10,7 @@ schema:
 
 ## RESTController
 
-```Haskell
+```
 1. @GetMapping("/products")
 public ResponseEntity<CollectionModel<EntityModel< product>>> allProducts()
 
