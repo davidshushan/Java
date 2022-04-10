@@ -9,6 +9,8 @@ schema:
 ## Product class:
 
 ## RESTController
+
+```Haskell
 1. @GetMapping("/products")
 public ResponseEntity<CollectionModel<EntityModel< product>>> allProducts()
 
@@ -18,7 +20,7 @@ public ResponseEntity<EntityModel< product>> singleProduct(@PathVariable long id
 3. @GetMapping("/orders/{id}/products")
 public ResponseEntity<CollectionModel<EntityModel<products>>>
 productsByOrder(@PathVariable long id)
-  
+``` 
   
   @GetMapping("/posts")
 public Post singlePost(@RequestParam String title) {
