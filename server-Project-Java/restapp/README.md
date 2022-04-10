@@ -10,7 +10,7 @@ schema:
 
 ## RESTController
 
-```
+```java
 1. @GetMapping("/products")
 public ResponseEntity<CollectionModel<EntityModel< product>>> allProducts()
 
@@ -29,7 +29,7 @@ return postRepo.findByTitle(title);
 ``` 
   
 ## OrderController
-```Haskell
+```java
   @GetMapping("/Orders")
 ResponseEntity<CollectionModel<EntityModel<Profile>>> allOrders()
 
