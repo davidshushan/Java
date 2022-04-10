@@ -36,7 +36,4 @@ ResponseEntity<CollectionModel<EntityModel<Profile>>> allOrders()
 2. @GetMapping("/Order/{id}")
 ResponseEntity<EntityModel<Profile>> singleOrder(@PathVariable long id)
  ``` 
- # PART B
-## server and client
-server and client comunication using jsonObject, Gson, and jsonFileReader/Writer
 
