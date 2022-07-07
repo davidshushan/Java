@@ -1,4 +1,4 @@
-package lecture5;
+package server;
 
 import java.io.*;
 import java.net.Socket;
